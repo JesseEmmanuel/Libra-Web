@@ -1,0 +1,229 @@
+body {
+    padding-top: 0 !important;
+}
+
+#first-container {
+    /*box-shadow: .5px .5px 5px #212c27;*/
+}
+
+/*******************BANNER/CTA CUSTOMIZATION*************************/
+#banner {
+    background-image: linear-gradient(0deg, rgba(5, 5, 5, 0.75), rgba(5, 5, 5, 0.75)), url('http://localhost:8080/Libra/assets/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+/*******************FEATURE SECTION CUSTOMIZATION*************************/
+#featured-section {
+    border-radius: 25px;
+    background-color: rgb(208, 233, 206);
+    margin-bottom: 100px !important;
+}
+
+#feat-icon {
+    /*margin-left: 40%;*/
+    background-color: white !important;
+    color: #21AB4F;
+    box-shadow: 2px 2px 5px #198754;
+}
+
+#feature-icon-row {
+    justify-content: center;
+}
+
+#feature-column {
+    color: whitesmoke;
+    border-radius: 25px;
+    border: 1px white;
+    background-color: #21AB4F;
+    box-shadow: 2px 2px 8px #829c90;
+}
+
+#feature-title {
+    text-align: center;
+}
+
+#feature-content {
+    text-align: center;
+}
+
+#feature-cta {
+    margin-left: 35%;
+}
+
+
+#banner h1 {
+    text-align: center;
+}
+
+#banner p {
+    text-align: center;
+}
+
+#banner a {
+    margin-left: 38%;
+}
+
+/*********CAROUSEL MODIFICATION************/
+#carousel-box-active {
+    background: black;
+    overflow: hidden;
+}
+
+#carousel-box {
+    background: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    ;
+}
+
+#carousel-images {
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+#carousel-content {
+    padding-bottom: 110px;
+}
+
+/*********FOOTER MODIFICATION************/
+#footer-box {
+    /* margin-right: 20% !important;
+   margin-left: 20% !important;*/
+}
+
+#main-3 {
+    margin-bottom: 10%;
+    margin-top: -10%;
+}
+
+#main-2 {
+    margin-top: -10%;
+}
+
+
+.btn-group button {
+    pointer-events: none;
+}
+
+/************Animations*************/
+
+@keyframes fadein-out {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 3;
+    }
+}
+
+.start-slide-from-left {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-15%);
+    transition: all 2s;
+    overflow: hidden;
+}
+
+.end-slide-from-left {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    overflow: hidden;
+}
+
+.start-slide-from-right {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(15%);
+    transition: all 2s;
+    overflow: hidden;
+}
+
+.end-slide-from-right {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    overflow: hidden;
+}
+
+.start-slide-from-bottom {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translatey(100%);
+    transition: all 3;
+}
+
+.end-slide-from-bottom {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.start-fade {
+    opacity: 0;
+    filter: blur(1px);
+    transition: all 1s;
+}
+
+.end-fade {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+/*****SIGNIN STYLE*******/
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+#forgot-account {
+    justify-content: center;
+}
+
+#social-button {
+    color: white;
+}
+
+#signup-header {
+    align-content: center;
+}
+
+#featured-section2{
+    background-image: linear-gradient(to bottom, #17A948, #7ED957);
+    
+  }
+  
+
+#social-box{
+    box-shadow: 2px 2px 10px #198754;
+}
+
+
+#image-shadow{
+    box-shadow: -25px -25px #003B1F;
+  }
+  
+  #image-shadow2{
+    box-shadow: -25px 25px #003B1F;
+  }
+  
