@@ -216,7 +216,7 @@ else
             <div class="col-lg-6 pt-5 start-slide-from-left">
                 <h1 class="display-5 fw-bold lh-1 mb-3 text-end">Join us in our community</h1>
                 <p class="lead text-end">Collaborate with people from other fields and learn from them.
-                    This is what I call a global community of writers and researchers.</p>
+                    We'll make a global community of writers and researchers much larger through time.</p>
                 <a href="community.php" class="d-grid gap-2"><button class="btn btn-success" type="button">Join Us!</button></a>
             </div>
         </div>

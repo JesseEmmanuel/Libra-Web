@@ -39,7 +39,7 @@ body {
     color: whitesmoke;
     border-radius: 25px;
     border: 1px white;
-    background-color: #21AB4F;
+    background-image: linear-gradient(to bottom, #1BA94A, #25c159);
     box-shadow: 2px 2px 8px #829c90;
 }
 
