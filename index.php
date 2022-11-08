@@ -37,7 +37,7 @@ else
             <div class="col-lg-6 start-fade" id="libra-intro1">
                 <!--<img src="./assets/images/study.gif" width="100%" class="d-block mx-lg-auto img-fluid rounded"
                     id="image-features" alt="Bootstrap Themes" loading="lazy">-->
-                <script height="500px" width="500px">
+                <script>
                     var animation = bodymovin.loadAnimation({
                         container: document.getElementById('libra-intro1'),
                         path: './assets/lottie/knowledge.json',

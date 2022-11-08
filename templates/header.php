@@ -28,7 +28,7 @@
             <li><a class="dropdown-item text-success" href="economics.php">Economics</a></li>
             <li><a class="dropdown-item text-success" href="engineering.php">Engineering</a></li>
             <li><a class="dropdown-item text-success" href="general-science.php">General Science</a></li>
-            <li><a class="dropdown-item text-success" href="health.php">Health</a></li>
+            <li><a class="dropdown-item text-success" href="health.php">Health & Fitness</a></li>
             <li><a class="dropdown-item text-success" href="literature.php">Literature & Arts</a></li>
             <li><a class="dropdown-item text-success" href="social-science.php">Social Science</a></li>
             <li><a class="dropdown-item text-success" href="psychology.php">Psychology</a></li>

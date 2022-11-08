@@ -6,9 +6,7 @@ const observer_sfle = new IntersectionObserver((entries) => {
         if (entry.isIntersecting)
         {
             entry.target.classList.add('end-slide-from-left');
-        } /*else {
-            entry.target.classList.remove('appear');
-        }*/
+        }
     });
 });
 
@@ -22,9 +20,7 @@ const observer_sfre = new IntersectionObserver((entries) => {
         if (entry.isIntersecting)
         {
             entry.target.classList.add('end-slide-from-right');
-        } /*else {
-            entry.target.classList.remove('appear');
-        }*/
+        }
     });
 });
 
@@ -38,9 +34,7 @@ const observer_fade = new IntersectionObserver((entries) => {
         if (entry.isIntersecting)
         {
             entry.target.classList.add('end-fade');
-        } /*else {
-            entry.target.classList.remove('appear');
-        }*/
+        }
     });
 });
 
@@ -55,9 +49,7 @@ const observer_sfbe = new IntersectionObserver((entries) => {
         if (entry.isIntersecting)
         {
             entry.target.classList.add('end-slide-from-bottom');
-        } /*else {
-            entry.target.classList.remove('appear');
-        }*/
+        }
     });
 });
 

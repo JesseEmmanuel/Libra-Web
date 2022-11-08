@@ -226,4 +226,10 @@ body {
   #image-shadow2{
     box-shadow: -25px 25px #003B1F;
   }
+
+    /* Navbar */
+
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
   
