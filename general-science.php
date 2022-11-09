@@ -48,7 +48,9 @@ else
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
       <div class="col-md d-flex align-items-stretch">
         <div class="card shadow-sm">
-          <img src="./assets/images/book1.png" class="d-block w-100" alt="..." width="100%">
+          <a href="bookpage.php">
+            <img src="./assets/images/book1.png" class="d-block w-100" alt="..." width="100%">
+          </a>
           <div class="card-body">
             <small>Fundamentals of python</small>
             <h5>How to think like a computer scientist</h5>

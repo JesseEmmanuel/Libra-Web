@@ -16,7 +16,7 @@ else
     <div class="row pb-0 pe-lg-0 align-items-center rounded-3">
       <div class="col-md p-3 p-lg-5">
         <h1 class="display-4 fw-bold lh-1 text-end text-success">Psychology </h1>
-        <p class="lead text-end">Psychology is the scientific study of the mind and behavior. Psychologists are actively 
+        <p class="lead text-end">Psychology is the scientific study of the mind and behavior. Psychologists are actively
           involved in studying and understanding mental processes, brain functions, and behavior.</p>
       </div>
       <div class="col-6 offset-lg-1 p-0 m-0" id="illustration">
@@ -45,7 +45,9 @@ else
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
       <div class="col-md d-flex align-items-stretch">
         <div class="card shadow-sm">
-          <img src="./assets/images/book1.png" class="d-block w-100" alt="..." width="100%">
+          <a href="bookpage.php">
+            <img src="./assets/images/book1.png" class="d-block w-100" alt="..." width="100%">
+          </a>
           <div class="card-body">
             <small>Fundamentals of python</small>
             <h5>How to think like a computer scientist</h5>
