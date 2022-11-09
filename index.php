@@ -54,7 +54,9 @@ else
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
             <div class="col-md d-flex align-items-stretch">
                 <div class="card shadow-sm">
-                    <img src="./assets/images/book1.png" class="d-block w-100" alt="..." width="100%">
+                    <a href="bookpage.php">
+                        <img src="./assets/images/book1.png" class="d-block w-100" alt="..." width="100%">
+                    </a>
                     <div class="card-body">
                         <small>Fundamentals of python</small>
                         <h5>How to think like a computer scientist</h5>
@@ -217,7 +219,8 @@ else
                 <h1 class="display-5 fw-bold lh-1 mb-3 text-end">Join us in our community</h1>
                 <p class="lead text-end">Collaborate with people from other fields and learn from them.
                     We'll make a global community of writers and researchers much larger through time.</p>
-                <a href="community.php" class="d-grid gap-2"><button class="btn btn-success" type="button">Join Us!</button></a>
+                <a href="community.php" class="d-grid gap-2"><button class="btn btn-success" type="button">Join
+                        Us!</button></a>
             </div>
         </div>
     </div>

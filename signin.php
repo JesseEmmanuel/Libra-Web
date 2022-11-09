@@ -50,7 +50,7 @@
 								placeholder="Username" />
 							<p><small>
 									<?php if (isset($_GET['uname_error'])) { ?>
-										<?php echo $_GET['uname_error']; ?>
+									<?php echo $_GET['uname_error']; ?>
 									<?php } ?>
 								</small></p>
 							<!--<label class="form-label" for="form3Example3">Email address</label>-->
@@ -81,6 +81,10 @@
 						<div class="text-center text-lg-start mt-4 pt-2 d-grid gap-2">
 							<button type="submit" class="btn btn-success btn-md"
 								style="padding-left: 2.5rem; padding-right: 2.5rem;">Sign In</button>
+							<a href="index.php" class="text-center">
+								<button type="button" class="btn btn-outline-success btn-sm"
+									style="padding-left: 2.5rem; padding-right: 2.5rem;">Back to Homepage</button>
+							</a>
 							<p class="small fw-bold mt-2 pt-1 mb-0 text-center">Don't have an account? <a
 									href="signup.php" class="link-success">Register</a></p>
 						</div>
